@@ -39,7 +39,7 @@ export default function Home() {
   }
 
   useEffect(()=>{
-    getResturantsFromYelp()
+    // getResturantsFromYelp()
   },[getResturantsFromYelp])
 
   return (
