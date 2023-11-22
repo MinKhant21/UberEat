@@ -28,6 +28,7 @@ export default function Home() {
     })
     .then(data=>{
       if(data){
+        console.log(data)
         // setRestaurantData(data.businesses)
       }
       setRestaurantData(localRestaurants)
